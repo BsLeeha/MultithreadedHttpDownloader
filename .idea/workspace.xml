@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb5fa10a-e3c8-4364-ba12-7c8ccfa281e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProgressBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="bb5fa10a-e3c8-4364-ba12-7c8ccfa281e1" name="Default Changelist" comment="add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QQMusicSetup.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bdlogo.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/HttpDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HttpDownloader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HttpDownloader$DownloadTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HttpDownloader$DownloadTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HttpDownloader$MonitorTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HttpDownloader$MonitorTask.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/HttpDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HttpDownloader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/NetworkProgrammingInJava.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HttpDownloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="252" column="57" selection-start-line="252" selection-start-column="57" selection-end-line="252" selection-end-column="57" />
+            <state relative-caret-position="75">
+              <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ProgressBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            <state relative-caret-position="153">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,8 +75,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/CommandLineUtils.java" />
         <option value="$PROJECT_DIR$/../LanLearn/Java/IdeaProjects/JavaLearn/src/main/java/Network/HttpDownloader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HttpDownloader.java" />
         <option value="$PROJECT_DIR$/src/main/java/ProgressBar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HttpDownloader.java" />
       </list>
     </option>
   </component>
@@ -99,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -140,7 +136,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,7 +170,7 @@
     <configuration name="HttpDownloader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HttpDownloader" />
       <module name="MultithreadedHttpDownloader" />
-      <option name="PROGRAM_PARAMETERS" value="-u https://github.com/pbatard/rufus/releases/download/v3.4/rufus-3.4.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-u https://github.com/pbatard/rufus/releases/download/v3.4/rufus-3.4.exe -t 3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,9 +219,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1913767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -243,7 +237,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,6 +247,10 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../LanLearn/Java/IdeaProjects/JavaLearn/src/main/java/Test.java">
@@ -382,20 +380,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HttpDownloader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ProgressBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="252" column="57" selection-start-line="252" selection-start-column="57" selection-end-line="252" selection-end-column="57" />
+        <state relative-caret-position="153">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ProgressBar.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HttpDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="57" column="81" selection-start-line="57" selection-start-column="81" selection-end-line="57" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

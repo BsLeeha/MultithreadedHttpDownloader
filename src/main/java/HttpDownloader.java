@@ -43,8 +43,8 @@ public class HttpDownloader {
     // for progress bar
     private volatile long fileSize = 0;
     private AtomicLong downloadedBytes = new AtomicLong();
-    private AtomicLongArray partialFileSize = new AtomicLongArray(threadNumber);
-    private AtomicLongArray downloadedSize = new AtomicLongArray(threadNumber);
+    private AtomicLongArray partialFileSize;
+    private AtomicLongArray downloadedSize;
 
     public static void main(String[] args) {
 
@@ -53,6 +53,9 @@ public class HttpDownloader {
         // set and parse command line
         Options options = downloader.setCommandLine();
         downloader.parseCommandLine(args, options);
+
+        downloader.partialFileSize = new AtomicLongArray(downloader.threadNumber);
+        downloader.downloadedSize = new AtomicLongArray(downloader.threadNumber);
 
         // check multithreaded
         downloader.checkMultithreaded();
